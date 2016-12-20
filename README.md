@@ -1,12 +1,12 @@
 # Eve Static Data to JSON.
 
-This is a very minimal tool that converts Eve Online static data exports from .yaml into .json. 
+This is a very minimal tool that converts Eve Online static data exports (SDE) from .yaml into .json. 
 
 ## Installation 
 Install with npm.
 
 ```
-npm i evetaticdata-json 
+npm i evetaticdata-json --save 
 ```
 
 ## Usage 
@@ -15,6 +15,7 @@ var staticData = require('evestaticdata-json');
 
 // each argument refers to the .yaml file Eve Online static export 
 var staticDataJSON = staticData.parse (typeIdPath, groupIdPath, categoryIdPath, blueprintsPath);
+console.log(staticDataJSON.Ship.Frigate.Tristan) // Logs data for the Tristan 
 ```
 
 
