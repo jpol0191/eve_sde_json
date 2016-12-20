@@ -1,0 +1,19 @@
+{
+  "name": "evestaticdata-json",
+  "version": "0.1.3",
+  "description": "Converts Eve Online static data exports into json data.",
+  "main": "index.js",
+  "dependencies": {
+    "js-yaml": "^3.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Eve",
+    "Online"
+  ],
+  "author": "Juan Pol",
+  "license": "MIT"
+}
