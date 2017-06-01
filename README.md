@@ -6,7 +6,7 @@ This is a very minimal tool that converts Eve Online static data exports (SDE) f
 Install with npm.
 
 ```
-npm i evetaticdata-json --save 
+npm i evestaticdata-json --save 
 ```
 
 ## Usage 
